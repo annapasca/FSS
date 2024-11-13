@@ -1,9 +1,10 @@
 title: FSS
-description: Cayman is a clean, responsive theme for GitHub Pages.
+description: FSS plugin
 show_downloads: true
-google_analytics:
-theme: jekyll-theme-cayman
+google_analytics: true
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
