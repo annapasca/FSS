@@ -4,7 +4,6 @@ show_downloads: true
 google_analytics: true
 baseurl: "https://github.com/annapasca/FSS/"
 source: docs
-remote_theme: pages-themes/cayman@v0.2.0
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-remote-theme
