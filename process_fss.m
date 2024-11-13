@@ -8,9 +8,8 @@ function varargout = process_fss( varargin )
 %                        highSEF,TrialDuration,pretrigger,bas, smpfq,lambda,T0,
 %                        sa_opt)
 %
-% Authors: Rosario Ribecco, 2023
+% Authors: Rosario Ribecco, Annalisa Pascarella
 % 
-% This code is derived from the Brainstorm 'process_notch.m' code.
 
 eval(macro_method);
 end
@@ -18,12 +17,12 @@ end
 %% ===== GET DESCRIPTION =====
 function sProcess = GetDescription()
     % === Process description
-    sProcess.Comment     = 'FSS through Simulated Annealing';
+    sProcess.Comment     = 'Run FSS';
     sProcess.FileTag     = 'fss';
     sProcess.Category    = 'File';
-    sProcess.SubGroup    = 'Test';
+    sProcess.SubGroup    = 'Extract';
     sProcess.Index       = 70;
-    sProcess.Description = 'https://github.com/lazarus171/FSS_Plugin_for_Brainstorm';
+    sProcess.Description = 'https://cnr-lets.github.io/FSS/';
     % === Input type definition
     sProcess.InputTypes  = {'recordings', 'data'};
     sProcess.OutputTypes = {'recordings', 'data'};

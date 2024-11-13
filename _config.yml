@@ -2,7 +2,9 @@ title: FSS
 description: FSS plugin
 show_downloads: true
 google_analytics: true
-remote_theme: pages-themes/cayman@v0.2.0
+baseurl: "https://github.com/annapasca/FSS/"
+source: docs
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
