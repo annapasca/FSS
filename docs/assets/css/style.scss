@@ -2,3 +2,45 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+/* Sidebar and content container styling */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h3 {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 0.5em;
+}
+
+.sidebar ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
